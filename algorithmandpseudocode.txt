@@ -1,0 +1,22 @@
+﻿ALGORITHM
+
+Prompt the user - “Would you like to continue?”
+Get input from the user
+Check for 3 things:
+	1. if user enters Y or y, re-prompt the user and continue from beginning
+	2. if user enters N or n, terminate program
+	3. if user enters anything else, display error message and re-prompt from beginning	
+
+
+PSEUDO CODE
+
+VAR response
+DO
+	Prompt user “Would you like to continue?”
+	Get response
+	IF response != (Y or y or N or n)
+		Display error message
+		Set response to y
+	ENDIF
+
+WHILE response = (Y or y)
